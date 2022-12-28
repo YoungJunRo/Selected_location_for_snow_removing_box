@@ -8,10 +8,10 @@ def round(r: int, lon: str, lat: str, dataset):
     gdf_flat = gdf.to_crs('epsg:6347')
     gdf_flat['geom'] = gdf_flat.geometry.buffer(r)
 
-    u = dataset.geom[0]
+    uni = dataset.geom[0]
     for point in gdf.geom:
-        u = u.union(point)
-    return u
+        uni = uni.union(point)
+    return uni
 
 def cal_area(poly, file):
     area = poly.area
