@@ -1,6 +1,7 @@
 # Selected_location_for_snow_removing_box
 머신러닝을 활용한 은평구 제설함 추가 배치 위치 설정 프로젝트
 
+### Data update with refactoring date : 2022-12-27 ~ 
 
 ## Model
 
@@ -20,4 +21,3 @@ gurobipy 와 mip를 활용한 최적화 모델
 - [도로교통공단_결빙사고 다발지역 API](https://www.data.go.kr/data/15058135/openapi.do)
 - [skorea_municipalities_geo_simple.json](https://pinkwink.kr/1003)
 
-### Data update with refactoring date : 2022-12-29
