@@ -1,9 +1,10 @@
 from mip import Model, xsum, maximize, BINARY
 from scipy.spatial import distance_matrix
 import time
-from gurobipy import *
+import numpy as np
 
 from utils import generate_candidate_sites
+from gurobipy import GRB, quicksum
 
 def mclp(df, K, M, radius):
     start = time.time()

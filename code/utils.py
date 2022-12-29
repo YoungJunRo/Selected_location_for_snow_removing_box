@@ -2,16 +2,17 @@ from shapely.geometry.point import Point
 import numpy as np
 import geopandas as gpd
 
-def round(r: int, lon: str, lat: str, dataset):
+def round(lat: float, lon: float, dataset, r: int = 50):
     dataset['geom'] = dataset.apply(lambda r: Point(r[lon], r[lat]), axis=1)
     gdf = gpd.GeoDataFrame(dataset, geometry='geom', crs='epsg:4326')
     gdf_flat = gdf.to_crs('epsg:6347')
     gdf_flat['geom'] = gdf_flat.geometry.buffer(r)
+    gdf = gdf_flat.to_crs('epsg:4326')
 
-    uni = dataset.geom[0]
+    site = gdf.geom[0]
     for point in gdf.geom:
-        uni = uni.union(point)
-    return uni
+        site = site.union(point)
+    return site
 
 def cal_area(poly, file):
     area = poly.area

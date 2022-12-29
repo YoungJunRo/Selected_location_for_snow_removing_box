@@ -69,4 +69,4 @@ print("후보군 선정 위치 : ", data_list)
 
 
 df = pd.DataFrame(data_list)
-df.to_csv('lscp_.csv')
+df.to_csv('lscp.csv')
