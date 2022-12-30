@@ -20,4 +20,4 @@ gurobipy 와 mip를 활용한 최적화 모델
 - [서울특별시_은평구_노인의료복지시설_20220701.csv](http://stat.ep.go.kr/wt/wt50/wt501020.do?data_meta_id=240#contentSheet)
 - [도로교통공단_결빙사고 다발지역 API](https://www.data.go.kr/data/15058135/openapi.do)
 - [skorea_municipalities_geo_simple.json](https://pinkwink.kr/1003)
-
+- [LOCAL_PEOPLE_GU_2021.csv](https://data.seoul.go.kr/dataList/OA-15439/S/1/datasetView.do)
