@@ -44,3 +44,6 @@ Gurobi Solver를 활용하여 Simple MIP(Mixed Integer Linear Programming)를 �
 - [skorea_municipalities_geo_simple.json](https://pinkwink.kr/1003)
 - [LOCAL_PEOPLE_GU_2021.csv](https://data.seoul.go.kr/dataList/OA-15439/S/1/datasetView.do)
 - [법정동코드_조회자료.csv](https://www.code.go.kr/stdcode/regCodeL.do)
+
+### Problem
+- seoul_smoke_point > 강동구 데이터 존재하지 
