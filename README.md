@@ -1,7 +1,7 @@
 # Selected_location_for_snow_removing_box
 머신러닝을 활용한 은평구 제설함 추가 배치 개수, 위치를 설정하는 프로젝트
 
-## Data update with refactoring date : 2022-12-27 ~ 2022-12-01
+## Data update with refactoring date : 2022-12-27 ~ 2023-01-01
 
 ## How To use
 
